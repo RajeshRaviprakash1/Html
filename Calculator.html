@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>Calculator</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+    }
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+    td {
+        text-align:center;
+        padding:5px   
+    }
+</style>
+<head>
+    <script src="myscripts.js" defer></script>
+</head>
+<body>
+  <div>Simple Calculator</div>
+    <table class ="table">
+        <tbody>
+          <tr>
+            <td><button class="btn" id="deleteButton">Del</button> </td>
+            <td colspan="5"><input class = "txtField" id="textField" type="text" placeholder="280"/></td>
+          </tr>
+          <tr>
+            <td> <button class="btn" id="numberSeven">7</button> </td> 
+            <td> <button class="btn" id="numberEight">8</button> </td>
+            <td> <button class="btn" id="numberNine">9</button> </td>
+            <td> <button class="btn" id="plus">+</button> </td>
+          </tr>
+          <tr>
+            <td> <button class="btn" id="numberFour">4</button> </td> 
+            <td> <button class="btn" id="numberFive">5</button> </td>
+            <td> <button class="btn" id="numberSix">6</button> </td>
+            <td> <button class="btn" id="minus">-</button> </td>
+          </tr>
+          <tr>
+            <td> <button class="btn" id="numberOne">1</button> </td> 
+            <td> <button class="btn" id="numberTwo">2</button> </td>
+            <td> <button class="btn" id="numberThree">3</button> </td>
+            <td> <button class="btn" id="division">÷</button> </td>
+          </tr>
+          <tr>
+            <td> <button class="btn" id="numberZero">0</button> </td> 
+            <td> <button class="btn" id="decimalPoint">.</button> </td>
+            <td> <button class="btn" id="equals">=</button> </td>
+            <td> <button class="btn" id="multiply">x</button> </td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>
